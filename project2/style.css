@@ -1,0 +1,192 @@
+body
+{
+	background-cimage: url(img/cork-wallet.png);
+	/* Background pattern from Subtle Patterns */
+	margin: 0 !important;
+	font-family: 'Slabo 27px', serif;
+}
+
+#header-bg
+{
+	width: 100%;
+	height: 200px;
+	background-color: #34373d;
+}
+
+#main-title
+{
+	font-size: 48px;
+	color: #ffffff;
+	text-align: center;
+	padding-top:50px;
+}
+
+
+#menu-bg
+{
+	width: 100%;
+	height: 43px;
+	background-color: #961250;
+	margin: 0; 
+	padding: 0;
+}
+
+
+#menu
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#menu > ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 22px;
+	display: inline-block;
+}
+
+#menu > ol a
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+}
+
+#menu > ol > li
+{
+	float: left;
+	width: 150px;
+	height: 48px;	
+	padding: 13px 0;
+}
+
+#menu > ol > li:hover
+{
+	background-color: #ffffff;
+	color: #000000;
+	height: 48px;
+}
+
+#menu > ol > li:hover > a
+{
+	color: #000000;	
+}
+
+#menu > ol > li > ul 
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: none;
+	color: #ffffff;
+}
+
+#menu > ol > li:hover > ul
+{
+	display: block;
+}
+
+#menu > ol > li > ul > li 
+{
+	background-color: #34373d;
+	position: relative;
+	z-index: 100;
+	border-top: 1px solid #000000;
+	padding: 13px 0;
+}
+
+#menu > ol > li > ul > li:hover
+{
+	background-color: #961250;
+	color: #ffffff;
+}
+
+#menu > ol > li > ul > li:hover > a
+{
+	color: #ffffff;
+}
+
+#empty 
+{
+	width: 100%;
+	height: 50px;
+	background-color: #ffffff;  /*#ee78a5;*/
+}
+
+.noempty 
+{
+	width: 100%;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #9C8F95;	
+	text-align: center;
+}
+
+h2 
+{
+	text-align: center;
+	font-size: 35px;
+	font-weight: 500;
+	text-transform: uppercas;
+	font-weight: 600;
+	letter-spacing: 4px;
+	margin: 0 0 20px 0;
+	padding-top: 20px;
+}
+
+.tiles-container 
+{
+	width: 990px;
+	margin-left: auto;	
+	margin-right: auto;	
+	margin-bottom: 0;
+	height: 320px;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+#tile-left, #tile-center, #tile-right
+{
+	width: 320px;
+	height: 300px;
+	margin: 5px 0 0 5px;
+	position: relative;
+	display: block;
+	font-size: 100%;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+
+.image 
+{
+	display: block;
+	width: 310px;
+	height: 200px;
+	border-radius: 4px;
+	margin: 0 0 10px 0;
+	padding: 0;
+	border: 3px solid #ebebeb;
+	font-size: 100%;
+	vertical-align: baseline;
+	text-align: center;
+}
+
+h3
+{
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+
+
